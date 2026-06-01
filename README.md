@@ -43,15 +43,15 @@ tcc-20262/
 │   ├── model/
 │   │   ├── order.h                     # Classe Pedido
 │   │   ├── mold.h                      # Classe Matriz
-│   │   ├── date.h                      # Classe Data
-│   │   └── problem_data.h              # Classe para armazenar dados do problema (parâmetros)
+│   │   └── date.h                      # Classe Data
 │   │   
 │   ├── repository/
 │   │   ├── order_repository.h          # Repositório de pedidos
 │   │   └── mold_repository.h           # Repositório de matrizes
 │   │   
-│   └── optimizer/
-│       └── allocation_optimizer.h        # Modelo matemático e solver
+│   └── optimization/
+│       ├── allocation_optimizer.h      # Modelo matemático e solver
+│       └── problem_data.h              # Armazenar dados do problema (parâmetros)
 │
 └── tests/
     ├── main.cpp                        # Runner de testes
