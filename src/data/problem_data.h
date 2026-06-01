@@ -1,6 +1,7 @@
 #pragma once
 #include "../repository/mold_repository.h"
 #include "../repository/order_repository.h"
+#include "../model/date.h"
 
 class ProblemData {
 	private:
