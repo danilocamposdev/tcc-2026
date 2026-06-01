@@ -19,5 +19,5 @@ public:
     Date delivery_date() const { return delivery_date_; }
     const Mold* mold() const { return mold_; }
     bool is_firm() const { return is_firm_; }
-    double weight() const { return weight_; }
+    int weight() const { return weight_; }
 };
